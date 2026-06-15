@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+env/
+.env/
+.venv/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+static/
+
+# Migrations (ixtiyoriy — kerak bo'lsa olib tashlang)
+# */migrations/
+
+# Coverage
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+
+# IDE
+.vscode/
+.idea/
+.claude/settings.local.json
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Docker
+*.env.docker
+
+# Logs
+logs/
+*.log
+
+# Secrets / keys
+*.pem
+*.key
+*.p12
+secrets/
